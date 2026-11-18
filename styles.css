@@ -1,0 +1,142 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef5f8;
+  color: #243447;
+  line-height: 1.6;
+}
+
+header {
+  background: #174c68;
+  color: white;
+  padding: 20px;
+}
+
+header h2 {
+  color: white;
+  margin: 0 0 12px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 850px;
+  margin: 30px auto;
+}
+
+h1, h2, h3 {
+  color: #174c68;
+}
+
+.bike {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 20px auto;
+}
+
+section {
+  background: white;
+  padding: 25px;
+  margin: 20px 0;
+  border: 1px solid #d4e3eb;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+input, select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+button {
+  background: #174c68;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #267fa8;
+}
+
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+button:focus-visible {
+  outline: 3px solid #e6a62e;
+  outline-offset: 3px;
+}
+
+#total {
+  font-weight: bold;
+  color: green;
+}
+
+#message {
+  font-weight: bold;
+  color: #174c68;
+}
+
+footer {
+  background: #174c68;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 40rem) {
+  main {
+    margin: 15px auto;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
+
+input, select, button {
+  max-width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+header, main, footer {
+  padding: 0 1rem;
+}
